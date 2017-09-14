@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/llPostRegisterGenres"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Select your favourite genres"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/llPostRegisterGenres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llPostRegisterGenres1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.example.boris.showon.view.ShowONCheckButton
+                android:id="@+id/btnPostRegisterAdventure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/check_border_unchecked"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="ADVENTURE"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <com.example.boris.showon.view.ShowONCheckButton
+                android:id="@+id/btnPostRegisterAction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/check_border_unchecked"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="ACTION"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <com.example.boris.showon.view.ShowONCheckButton
+                android:id="@+id/btnPostRegisterAnimation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/check_border_unchecked"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="ANIMATION"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPostRegisterGenres2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <com.example.boris.showon.view.ShowONCheckButton
+                android:id="@+id/btnPostRegisterComedy"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/check_border_unchecked"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="COMEDY"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <com.example.boris.showon.view.ShowONCheckButton
+                android:id="@+id/btnPostRegisterCrime"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/check_border_unchecked"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="CRIME"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPostRegisterGenres3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.example.boris.showon.view.ShowONCheckButton
+                android:id="@+id/btnPostRegisterHorror"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/check_border_unchecked"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="HORROR"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <com.example.boris.showon.view.ShowONCheckButton
+                android:id="@+id/btnPostRegisterDocumentary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/check_border_unchecked"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="DOCUMENTARY"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+            <com.example.boris.showon.view.ShowONCheckButton
+                android:id="@+id/btnPostRegisterMusic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/check_border_unchecked"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="MUSIC"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnPostRegisterContinue"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="CONTINUE"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimaryDarkest"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/tvEpisodesRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Episode"
+        android:textSize="14sp"
+        android:layout_weight="0.1"/>
+    <CheckBox
+        android:id="@+id/cbEpisodesRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+       />
+
+</LinearLayout>

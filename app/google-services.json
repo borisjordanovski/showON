@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "250310143909",
+    "firebase_url": "https://showon-a8a98.firebaseio.com",
+    "project_id": "showon-a8a98",
+    "storage_bucket": "showon-a8a98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250310143909:android:5ff4a0440e611b15",
+        "android_client_info": {
+          "package_name": "com.example.boris.showon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250310143909-9n34tb2ntb78mvkkqeikdcnmpesub2pc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyrXH2tyrhGqeuyheFVpSAeoAu0bWfC-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

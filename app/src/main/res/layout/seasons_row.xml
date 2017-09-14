@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnSeasonsRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:text="Season"
+        android:textSize="20sp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvSeasonsRowEpisodes"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDarkest"/>
+    <TextView
+        android:id="@+id/tvSeasonsRowEpisodes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+
+</LinearLayout>
